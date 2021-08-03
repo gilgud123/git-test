@@ -1,7 +1,7 @@
 # Sample image
 #FROM openjdk:8-jdk-alpine
 
-FROM ubuntu
+FROM debian
 
 # Image configuration
 RUN /bin/bash -c 'This is a sample dockerfile.'
