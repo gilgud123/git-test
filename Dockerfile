@@ -10,3 +10,5 @@ FROM ubuntu
 #RUN /bin/bash -c 'This is a sample dockerfile.'
 ENV myCustomEnvVar="This is a sample." \
     otherEnvVar="This is also a sample."
+
+RUN echo 'Building jenkins docker test image.'
